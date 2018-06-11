@@ -10,8 +10,7 @@ echo $HOME    | an environment variable that contains the full path to your home
 The directory structure on a UNIX/Linux/etc machine starts at "/", which is the very top of the hierarchical filesystem.  The filesystem is laid out underneath that, with elements of the path separated by */*
 
 
-
-ls lists the contents of a directory. It will display the files in the current working directory or the directory specified. What is listed is not everything that is there. It does not display files that begin with a dot ("."), called dot files. Using the -a option (all) will display them. Check the man pages for more options when listing files.
+**ls** lists the contents of a directory. It will display the files in the current working directory or the directory specified. What is listed is not everything that is there. It does not display files that begin with a dot ("."), called dot files. Using the -a option (all) will display them. Check the man pages for more options when listing files.
 
 ```
 $ ls -l /etc
